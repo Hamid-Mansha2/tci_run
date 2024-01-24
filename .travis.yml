@@ -1,0 +1,10 @@
+language: php
+
+php:
+  - '8.3.0'
+
+dist: jammy
+arch: amd64
+
+script:
+  - php -v
